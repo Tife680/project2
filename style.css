@@ -1,0 +1,92 @@
+/* navbar start */
+.nav-link{
+    color:  #0b102c !important;
+    font-weight: bold !important; 
+    font-size: 1.1rem; 
+}
+.nav-link:hover{
+   color: orangered !important;
+   font-weight: bold !important; 
+   font-size: 1.1rem;
+}
+.navbar-brand{
+   font-size: 30px;
+   color:  #06283D !important;
+   font-weight: bold;
+}
+.navbar-brand span{
+   color: orangered;
+}
+/* navbar end */
+
+/* hero */
+.hero-section{
+   min-height: 100vh;
+   background: linear-gradient( rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://static.vecteezy.com/system/resources/previews/023/809/530/non_2x/a-flying-burger-with-all-the-layers-ai-generative-free-photo.jpg');
+   background-position: center ;
+   background-size: cover;
+   background-attachment: fixed  ;
+   display: flex; 
+   justify-content: center;
+   align-items: center;
+}
+#button{
+   border: 1px orangered solid;
+   color: white;
+}
+#button:hover{
+   border: none;
+}
+#button-2{
+   border: 1px orangered solid;
+   color: white;
+}
+#button-2:hover{
+   border: none;
+}
+
+ /* services */
+ .services{
+   background-color: whitesmoke;
+   background-position: center ;
+   height: 70vh;
+   background-size: cover;
+   background-attachment: fixed  ;
+   display: flex; 
+   justify-content: center;
+   align-items: center;
+   
+ }
+ .card:hover{
+   box-shadow: rgba(0,0,0,0.35) 0px 5px 15px ;
+   border-radius: 100px;
+ }
+
+  /* about us */
+img{
+   border-radius: 200px ;
+   height: 300px;
+   width: 300px;
+}
+img:hover{
+   box-shadow: rgba(0, 0, 0, 0.534) 0px 5px 15px ;
+
+}
+
+ /* contact */
+ .btn-sub:hover{
+   background-color: orangered;
+   color: #fff;
+   width: 150px;
+   font-size: 1.2rem;
+}
+input{
+  height: 50px;
+  border: 1px solid;
+}
+#img{
+   width: 500px;
+   height: 70vh;
+   margin-top: 100px;
+}
+
